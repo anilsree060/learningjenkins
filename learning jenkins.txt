@@ -30,3 +30,4 @@ Genarate Pipeline script tab
 
 *I have learnt multibranch pipeline by creating multibranch folder and performing actions on github,and created seperate branch and every branch
 ha it's own jenkinsfile and job runs on individual job when we push any changes to repoistory
+finished
