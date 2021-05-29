@@ -1,0 +1,32 @@
+Learning About Jenkins
+==================================
+What is Jenkins?--> It's CI/CD tool
+
+*Stages Involved in jenkins is 
+1.Continuos Download
+2.Continuous Build
+3.Continuous Deployment
+4.Continuous Testing
+5.Continuous Delivery
+
+The above four stages are called as Continuous Integration, Continuous Delivey which is called CI/CD
+
+*Here i have performed on aws by taking ubuntu 18.04 instances and naming as dev,qa,prod and slave(for master slave configuration)
+
+*In this I have learned about performing freestyle projects and here we need to install some plugins to work.We need to generate the artifact in dev
+and we need to deploy to qa and after qa testing stage should be passed and after that it should be deployable to prod from dev
+where application comes in to live.
+
+*I have learned how to create users and manage roles and assign roles to particular job and by default the master is the default node in jenkins
+when we want to distrubitve the load we will create master slave configuration, here i have learned how to create another node and how make the jobs
+to run on the create node other than master.
+
+*I have learnt how to integrate jenkins with email,so that we will get notification through an email.
+
+*But majorly everything will be build by using piplines jobs, there are two types of jobs 1. Scripted 2. Declarative
+
+*I have build using Scripted pipeline by generating Grovvy scipt, defining the jobs in pipeline tab which we will generate the script from 
+Genarate Pipeline script tab
+
+*I have learnt multibranch pipeline by creating multibranch folder and performing actions on github,and created seperate branch and every branch
+ha it's own jenkinsfile and job runs on individual job when we push any changes to repoistory
